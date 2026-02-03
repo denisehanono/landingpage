@@ -1,0 +1,38 @@
+
+.person__title {
+  font-size: 4em;
+  line-height: 2em;
+}
+
+.person__social{
+    font-size: 20px;
+    max-width: 300px;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+
+/* Denise */
+
+.person__denise{
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.person__image_denise{
+  aspect-ratio: 1/1;
+  max-width: 300px;
+  margin: auto;
+  background-image: url("../images/img_equipo_denise.png");
+  background-size: cover;
+}
+
+.person__image_denise:hover{
+  background-image: url("../images/img2_equipo_denise.png");
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .person {
+    font-size: 10px;
+  }
+}

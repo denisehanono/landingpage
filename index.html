@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="./css/styleimport.css" />
+  <meta name="Landing Page" content="Denise Hanono Landing Page" />
+  <meta name="author" content="Denise Hanono" />
+  <meta name="keywords" content="Landing Page" />
+  <!-- css -->
+  <link rel="stylesheet" href="./css/index.css" />
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Meddon&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inconsolata:wght@200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- favicon -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <title>Denise</title>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header" id="home">
+      <nav class="nav">
+        <img src="images/logo5.svg" alt="Aqui esta el logo" class="nav__logo" />
+        <ul class="nav__links">
+          <li><a href="#home" class="nav__link">Home</a></li>
+          <li>
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="status"> <span class="status-dot"></span> Available for new projects </div>
+      <h1 class="header__title">
+        Hi, I'm <span class="header__title-accent"> Denise</span>
+      </h1>
+      <p class="header__subtitle">
+        <span class="tag">&lt;</span>
+        Full Stack Developer
+        <span class="tag">/&gt;</span>
+      </p>
+      <div class="person__denise">
+        <a href=" https://github.com/denisehanono">
+          <div class="person__image_denise"> </div>
+        </a>
+      </div>
+      <!--  <div class="slogan">Design Build Inspire</div> -->
+      <div class="circle"></div>
+    </header>
+
+
+    <main class="main" id="about">
+      <section class="about" id="about">
+        <section class="about-layout">
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p>I turn ideas into digital experiences.
+              My approach blends clean code, thoughtful design, and a deep attention to detail. <span> I focus on
+                building
+                interfaces that
+                are intuitive, intentional, and visually refined.</span> </p>
+          </div>
+
+          <section class="skills-grid">
+            <div class="skill-card">
+              <img src="/images/fronticon.svg" alt="Frontend icon" class="miniicon" />
+              <h3>Frontend</h3>
+              <p>Crafting responsive and visually refined interfaces using React, HTML, CSS, and JavaScript. Focused on
+                clarity,
+                performance, and clean structure.</p>
+            </div>
+            <div class="skill-card">
+              <img src="/images/backicon.svg" alt="Backend icon" class="miniicon" />
+              <h3>Backend</h3>
+              <p>Developing server side logic with Node.js and Express, handling routing, data flow, and integration
+                with frontend
+                applications.</p>
+            </div>
+            <div class="skill-card">
+              <img src="/images/apiicon.svg" alt="API icon" class="miniicon" />
+              <h3>REST API & Data Handling</h3>
+              <p>Designing and consuming RESTful APIs, working with requests, responses, and structured data to connect
+                full stack
+                applications.</p>
+            </div>
+            <div class="skill-card">
+              <img src="/images/designicon.svg" alt="Design icon" class="miniicon" />
+              <h3>Design</h3>
+              <p>Applying design principles and psychology to create intuitive digital experiences where functionality
+                and aesthetics
+                work together.</p>
+            </div>
+          </section>
+        </section>
+
+        <section class="tech-stack">
+          <h2 class="tech__title">Tech Stack</h2>
+          <div class="tech-image">
+            <img src="/images/tech.svg" alt="Teck Stack image" class="image" />
+          </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+          <h2 class="portfolio__title">Portfolio</h2>
+          <h6 class="portfolio__subtitle"> click on image to discover more </h6>
+
+          <div class="portfolio__projects">
+            <!-- Proyecto 1 -->
+            <div>
+              <h3 class="portfolio__project-title">Denise TV</h3>
+              <a href="https://denisehanono.github.io/denisetv/" class="portfolio__project">
+                <img src="./images/project1_denisetv.png" alt="Proyecto 1" class="portfolio__image" />
+              </a>
+              <p class="portfolio__project-description"> Interactive TV prototype where you can turn the TV on and off
+                and
+                change channels using a virtual remote control.
+              </p>
+            </div>
+            <div>
+              <!-- Proyecto 2 -->
+              <h3 class="portfolio__project-title">Around the World</h3>
+              <a href="https://denisehanono.github.io/web_project_around/src/index.html" class="portfolio__project">
+                <img src="./images/project2_aroundtheworld.png" alt="Proyecto 2" class="portfolio__image" />
+              </a>
+              <p class="portfolio__project-description">
+                Social media style web app with image uploads and profile management.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact" id="contact">
+          <h2 class="contact__title">Contact</h2>
+          <p class="contact__subtitle">
+            Let’s work together or just say hello.
+          </p>
+
+          <div class="contact__links">
+            <a href="mailto:1devco42@gmail.com" class="contact__link">Email</a>
+            <a href="https://github.com/denisehanono" class="contact__link">GitHub</a>
+            <a href="https://www.linkedin.com/in/denisedev" class="contact__link">LinkedIn</a>
+          </div>
+        </section>
+
+
+        <footer class="footer" id="footer">
+          <p class="footer__copyright"> Copyright &#169; 2026 Denise Hanono
+        </footer>
+    </main>
+  </div>
+</body>
+
+</html>

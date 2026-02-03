@@ -1,0 +1,37 @@
+.contact {
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 65px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.contact__subtitle {
+    padding-top: 50px;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.contact__links {
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact__link {
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 5px;
+    transition: opacity 0.3s;
+}
+
+.contact__link:hover {
+    opacity: 0.6;
+}
